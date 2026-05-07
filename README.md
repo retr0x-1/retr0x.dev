@@ -23,7 +23,7 @@ Built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**.
 | Hero | ✅ Live | HeroGlitch component — per-character hacker decode effect |
 | About | ✅ Live | Skills matrix, experience log |
 | Projects | ✅ Live | Stack tags + status badges (SHIPPED / IN PROGRESS / OPEN SOURCE). Code / Live Demo links commented out — uncomment when projects are deployed |
-| Blog | ✅ Live | Placeholder posts — replace with real content or CMS |
+| Blog | 🚧 Hidden | Placeholder posts — replace with real content or CMS. Re-enable by uncommenting in `page.tsx` and `Navigation.tsx` |
 | Contact | ✅ Live | Form is simulated — wire up to a real endpoint (Resend, Formspree, etc.) |
 
 ---
@@ -32,7 +32,7 @@ Built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**.
 
 - [ ] Wire up contact form to a real email service
 - [ ] Add real project links (uncomment Code / Live Demo in `Projects.tsx`)
-- [ ] Replace blog placeholder posts with real content
+- [ ] Replace blog placeholder posts with real content (re-enable in `page.tsx` and `Navigation.tsx` when ready)
 - [ ] Add GitHub and Twitter profile URLs
 - [ ] Add favicon / OG image
 - [ ] Deploy to Vercel
